@@ -1,0 +1,31 @@
+/* Definición de la regla @font-face para la fuente GoticaBastard */
+@font-face {
+    font-family: 'GoticaBastard';
+    src: url('GoticaBastard.ttf') format('truetype');
+}
+
+/* Estilos adicionales */
+body {
+    background-color: #000; /* Fondo negro */
+    font-family: 'GoticaBastard', sans-serif; /* Fuente GoticaBastard */
+    color: #fff; /* Color de texto blanco */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+p {
+    font-size: 48px !important; /* Tamaño de letra aún más grande para el texto "Te amo 3 millones" */
+    color: #fff; /* Color de texto más blanco */
+}
+
+
+img {
+    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
